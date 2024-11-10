@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Define la base del proyecto
+    "paths": {
+      "@/*": ["src/*"] // Asegúrate de que la ruta relativa sea correcta
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
